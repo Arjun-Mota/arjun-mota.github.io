@@ -13,14 +13,14 @@ title: Arjun Mota's Blog                     # the main title
 tagline: AI | Machine Learning | Data-Science | Big-Data | Software-Engineering | Cloud Computing | IoT | Projects, Interests and Experiences | Misc   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Arjun Mota's portfolio representing his 
-  background, projects, interests and various blog posts 
-  on topics ranging from AI, Machine Learning, Deep Learning, 
-  Data Science, Statistical Analysis, Data Analytics, Data Visualization,
-  Cloud Computing, Databases (SQL, NoSQL), Clean coding, Big data,
-  Analytics, IOT, Hiking, Treking, Travelling, Tableau, Python, Java, Software Engineering,
-  Microsoft Power Bi and some regarding current global trends, genetics, robotics, and
-   3D Printing as well.
+  This blog is representing his background, projects, interests and various blog posts 
+  on topics ranging from AI, Machine Learning, Deep Learning, Data Science, and new researches 
+  related to them, Statistical Analysis, Tableau, Python, Java, Software Engineering, Microsoft Power Bi, 
+  Data Analytics, Data Visualization, Cloud Computing, Databases (SQL, NoSQL), Clean coding, Big data,Analytics, 
+  IOT, Books, Hiking, Treking, Travelling, and some regarding current global trends, genetics, 
+  robotics, space science and 3D Printing as well.
+
+cover_image: /assets/img/sample/cover.png
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://arjun-mota.github.io'

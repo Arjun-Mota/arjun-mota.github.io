@@ -71,19 +71,19 @@ Curiosity about Leveraging Big Data ✔
 |:---|:----|
 |Amazon Product Reviews Sentiment Analysis | Sentiment analysis of product reviews in positive and negative with Identification of most reviewed products from Amazon products dataset. |
 |Credit Card Approval | Machine learning model for credit card approval based on features like gender, age, debt, married, education level, ethnicity, year employed,etc; |
-|Credit Card Fraud Prediction | Identify fraudsters from European credit card transactions using machine learning classification model |
+|Credit Card Fraud Prediction | Identify fraudsters from European credit card transactions using machine learning classification model. |
 |Customer Churn Prediction | Machine learning model to predict customer churn of a telecom company. |
 |Generating Google Ads Keywords | Python based small application for generating Google ads keywords for an online retailer of furniture. |
 |Hotel Reviews Text Summarization | In order to reduce reading time and give only important aspects of a review developed abstractive text summarization of hotel reviews with Huggingface Transformers. |
 |Meta Search Engine | Aggregating the results of Google and Bing search engines through a custom indexing algorithm. |
-|Virtual Classroom | Web application to manage to study from home with course management, subject-wise material, live and offline streaming, blog posts, student forum, etc;. |
+|Virtual Classroom | Web application to manage to study from home with course management, subject-wise material, live and offline streaming, blog posts, student forum, etc; |
 
 ```
-Note: Most of these projects are available on my Github account with detailed explaination.
+Note: Most of them are available on my Github account with detailed explaination.
 ```
 ## Personal Life
 
-In Personal life I like to travel to new places, reading books, go for trekking, listen to music, talk to new people and join them for social work and saving the environment.  
+In personal life I like to travel to new places, reading books, travelling, go for trekking, listen to music, talk to new people and join them for social work and saving the environment.  
   
 >"Get most out of life, make memories and spread happiness".
 
