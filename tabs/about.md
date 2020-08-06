@@ -10,7 +10,7 @@ math: true
 
 ## Introduction
 Greetings!<br/>
-My name is Arjun Mota.  I am a Software Engineer live in Mumbai, Maharashtra - India holding a Masters in Computer Applications (MCA) from Maharashtra Institute of Technology (MIT), Pune, Maharashtra. My roots are in Kutch, Gujarat - India where I finished my studies till Bachelors (BCA) before moving to Pune for pursuing Masters. I am a multilingual individual knowing languages like Gujarati, Hindi, English and some conversations of Marathi.
+My name is Arjun Mota.  I am a Software Engineer live in Mumbai, Maharashtra - India holding a Masters in Computer Applications (MCA) from Maharashtra Institute of Technology (MIT), Pune, Maharashtra. My roots are in Kutch, Gujarat - India where I finished my studies till Bachelors (BCA) before moving to Pune for pursuing Masters. I am a multilingual individual knowing languages like <a href="https://en.wikipedia.org/wiki/Kutchi_language" alt="https://en.wikipedia.org/wiki/Kutchi_language">Kutchi</a>, <a href="https://en.wikipedia.org/wiki/Gujarati_language" alt="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a>, <a href="https://en.wikipedia.org/wiki/Hindi" lat="https://en.wikipedia.org/wiki/Hindi">Hindi</a>, <a href="https://en.wikipedia.org/wiki/English_language" alt="https://en.wikipedia.org/wiki/English_language">English</a> and some conversations of <a href="https://en.wikipedia.org/wiki/Marathi_language" alt="https://en.wikipedia.org/wiki/Marathi_language">Marathi</a>.
 
 ## Professional Experience  
 

@@ -70,7 +70,7 @@ $sidebar-display: "sidebar-display";
 #sidebar {
   @include pl-pr(0);
   position: fixed;
-  font-family: 'Titillium Web','Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Product Sans', 'Titillium Web','Source Sans Pro', 'Microsoft Yahei', sans-serif;
   top: 0;
   left: 0;
   height: 100%;
@@ -87,8 +87,8 @@ $sidebar-display: "sidebar-display";
     a {
       // color: var(--site-title-color);
       font-weight: 900;
-      font-size: 1.2rem;
-      letter-spacing: .5px;
+      font-size: 1.3rem;
+      letter-spacing: .9px;
       &:hover {
         color: #fff;
         text-decoration: none;
@@ -99,8 +99,8 @@ $sidebar-display: "sidebar-display";
   .site-subtitle {
     font-size: 88%;    
     text-align: center;
-    color: #828282;
-    line-height: 1.1rem;
+    color: #a7a7a7;
+    line-height: 1.3rem;
     word-spacing: 1px;
     margin: .3rem 1.0rem 2rem 1.0rem;
   }
