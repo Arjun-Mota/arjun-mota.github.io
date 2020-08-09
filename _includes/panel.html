@@ -46,6 +46,8 @@
         {% capture url %}/tags/{{ tag | downcase | url_encode }}/{% endcapture %}
         <a class="post-tag" href="{{ url | relative_url }}">{{ tag | replace: '-', ' ' }}</a>
         {% endfor %}
+        <br />
+        <a href="/tabs/tags/" alt="see all tags"  style="font-family: 'Titillium Web','Source Sans Pro', 'Microsoft Yahei', sans-serif;color:var(--text-color);">See all tags...</a>
       </div>
     </div>
     {% endif %}

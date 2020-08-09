@@ -2,7 +2,7 @@
 title: About
 type: about
 layout: post
-date: 2020-08-03 23:00:00 +0530
+date: 2020-08-09 23:00:00 +0530
 toc: true
 math: true
 ---
@@ -20,7 +20,7 @@ My name is Arjun Mota.  I am a Software Engineer live in Mumbai, Maharashtra - I
 
 ⦿ Worked on Flagship Product Automated Manuscript Processing Platform, where tasks like manuscript content structuring, shuffling, conversion, identification, marking, XML generation, validation, etc. were being done with a strategically designed set of modules in different languages like Python, Java, etc.<br/>
 ⦿ Developed Manuscript Cleanup module from scratch which got integrated with the above platform on production.  <br/>
-⦿ Responsible for analysis, design, implementation, testing, deployment, and presentation on tasks related to Manuscript Processing and also developing API to expose services to certain modules.  <br/>
+⦿ Responsible for analysis, design, implementation, testing, deployment, and presentation on tasks related to Manuscript Processing.  <br/>
 ⦿ Worked with an Agile team of a project manager, product owner, technical architect, team lead, business analysts, quality assurance engineers, software engineers.<br/>
 ⦿ Conducted intuitive and informational sessions on clean coding.  <br/>
 ⦿ Guided Junior Engineers for clean coding and problem-solving.<br/>
@@ -70,13 +70,13 @@ Curiosity about Leveraging Big Data ✔
 |Project Name|Short Description|
 |:---|:----|
 |Amazon Product Reviews Sentiment Analysis | Sentiment analysis of product reviews in positive and negative with Identification of most reviewed products from Amazon products dataset. |
-|Credit Card Approval | Machine learning model for credit card approval based on features like gender, age, debt, married, education level, ethnicity, year employed,etc; |
+|Credit Card Approval | Machine learning model for credit card approval based on features like gender, age, debt, married, education level, ethnicity, year employed,etc. |
 |Credit Card Fraud Prediction | Identify fraudsters from European credit card transactions using machine learning classification model. |
 |Customer Churn Prediction | Machine learning model to predict customer churn of a telecom company. |
 |Generating Google Ads Keywords | Python based small application for generating Google ads keywords for an online retailer of furniture. |
 |Hotel Reviews Text Summarization | In order to reduce reading time and give only important aspects of a review developed abstractive text summarization of hotel reviews with Huggingface Transformers. |
 |Meta Search Engine | Aggregating the results of Google and Bing search engines through a custom indexing algorithm. |
-|Virtual Classroom | Web application to manage to study from home with course management, subject-wise material, live and offline streaming, blog posts, student forum, etc; |
+|Virtual Classroom | Web application to manage to study from home with course management, subject-wise material, live and offline streaming, blog posts, student forum, etc. |
 
 ```
 Note: Most of them are available on my Github account with detailed explaination.
@@ -89,18 +89,35 @@ In personal life I like to travel to new places, reading books, travelling, go f
 
 ## About This Blog
 
-The whole purpose of this blog is to share the knowledge, learn from the community and showcasing my capabilities in different aspects of professional, personal and social life.
+### Left Menu
+
+Menu on the left side contains some links, brief explaination of them are as under:
+
+```terminal
+├── Home  > All the updates will appear here.
+├── Categories  > Contains all the articles clustered into several categories.
+├── Timeline  > Timeline of all the articles by posting date.
+├── About  > You can get to learn more about me and content of this blog.
+```
+
+### Bottom Links and Panels
+
+I would also suggest you to explore all tags by clicking on see all tags link on the top right  trending tags panel. You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my github, linkedin, hackerrank profiles, email id and rss link.
+
+### Purpose
+
+The whole purpose of this blog is to share the knowledge, learn from the community and showcasing my capabilities and point of view in different aspects of professional, personal and social life.
 
 Keep on coming to this place for more interesting stuff.
 <br/>Thanks for visiting my blog.
 <hr>
 
->\"Be ashamed to die until you have won some victory for humanity.\" –Horace Mann
+>\"Be ashamed to die until you have won some victory for humanity.\" <b>–Horace Mann</b>
 <hr>
 
 ### Contact
 <hr>
-In case of any query or discussion,
+In case of any query, suggestion, request or discussion,
 <br/>Contact me at: {% assign email = site.social.email | split: '@' %} <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"  style="color: #3b5998; brightness(30%);">
     <i class="fas fa-envelope"></i> arjunmota@hotmail.com
   </a>
