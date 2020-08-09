@@ -266,8 +266,17 @@ align-self: center;
       &.fa-telegram {
         @include btn-sharing-color(rgb(39, 159, 217));
       }
-      &.fa-weibo {
+      &.fa-reddit {
         @include btn-sharing-color(rgb(229, 20, 43));
+      }
+      &.fa-linkedin {
+        @include btn-sharing-color(rgb(40,103,178));
+      }
+      &.fa-vk {
+        @include btn-sharing-color(rgba(76, 117, 163,1));
+      }
+      &.fa-tumbler {
+        @include btn-sharing-color(#34526f);
       }
     }
 
