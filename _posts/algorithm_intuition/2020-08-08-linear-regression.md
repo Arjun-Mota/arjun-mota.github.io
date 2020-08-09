@@ -3,7 +3,7 @@ title: Linear Regression | Algorithm Intuition Series
 author: Arjun Mota
 date: 2020-08-09 23:00:00 +0530
 image: /assets/img/sample/Linear Regression Cover.png
-categories: [Artificial Intelligence, Algorithm Intuition]
+categories: [artificial intelligence, algorithm intuition]
 tags: [regression, machine learning]
 math: true
 toc: true
