@@ -142,7 +142,7 @@ Alright, Well done! We are done with the math of multiple linear regression as w
 
 ## Diagram
 
-<img src="/assets/img/sample/Linear_regression.png" alt="Linear regression diagram">
+<img src="/assets/img/sample/Linear_Regression.png" alt="Linear regression diagram">
 
 ### Details
 
