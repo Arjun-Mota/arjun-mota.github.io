@@ -102,7 +102,8 @@ Menu on the left side contains some links, brief explaination of them are as und
 
 ### Bottom Links and Panels
 
-I would also suggest you to explore all tags by clicking on see all tags link on the top right  trending tags panel. You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my github, linkedin, hackerrank profiles, email id and rss link.
+If you are viewing this website on a desktop, I would also suggest you to explore all tags by clicking on see all tags link on the top right  trending tags panel.<br/>
+You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my github, linkedin, hackerrank profiles, email id and rss link.
 
 ### Purpose
 
