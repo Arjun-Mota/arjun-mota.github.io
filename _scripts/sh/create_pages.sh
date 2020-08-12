@@ -18,6 +18,11 @@ TYPE_TAG=1
 category_count=0
 tag_count=0
 
+_read_yaml() {
+  local _endline=$(grep -n "\-\-\-" $1 | cut -d: -f 1 | sed -n '2p')
+  head -$_endline $1
+}
+
 read_categories() {
   local _yaml=$(_read_yaml $1)
   local _categories=$(echo "$_yaml" | grep "^categories:")
@@ -32,7 +37,6 @@ read_categories() {
 
 
 read_tags() {
-  grep "tags:" $1 | head -1 | sed 's/tags: *//;s/\[//;s/\]//;s/, */,/g;s/"//g'
   local _yaml=$(_read_yaml $1)
   echo "$_yaml" | grep "^tags:" | sed "s/tags: *//;s/\[//;s/\].*//;s/, */,/g;s/\"//g;s/'//g"
 }

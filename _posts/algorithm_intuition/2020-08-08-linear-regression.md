@@ -2,9 +2,10 @@
 title: Linear Regression - Algorithm Intuition
 author: Arjun Mota
 date: 2020-08-09 23:00:00 +0530
+lastmod: 2020-08-12 16:00:00 +0530
 image: /assets/img/sample/Linear Regression Cover.png
 categories: [Artificial Intelligence, Algorithm Intuition]
-tags: [regression, machine learning]
+tags: [regression, machine-learning]
 math: true
 toc: true
 ---
@@ -17,7 +18,7 @@ Linear regression is an algorithm where machine learning actually starts. It is 
 
 ## Use Cases 
 
-Here independent variables consist of all the features that are required to predict dependent variable that we want to predict. Let me give you some linear regression use cases for better understanding.
+Here independent variables consist of all the features that are required to predict a dependent variable. Let me give you some linear regression use cases for better understanding.
 
 ### Examples
 
@@ -31,7 +32,7 @@ Here independent variables consist of all the features that are required to pred
 
 ### Example > House Price Prediction
 
-Consider predicting house price, where house price is the dependent variable that we want to predict based on some independent variables contributing to house price. Independent variables could be the number of bedrooms, location, is furnished or not, number of years old, etc.
+Consider predicting house price, where house price is the dependent variable that we want to predict based on some independent variables contributing to it. Independent variables could be the number of bedrooms, location, is furnished or not, number of years old, etc.
 
 ### Math Behind
 
@@ -62,7 +63,7 @@ here
 \bar{x}
 \\) </span>
 is mean of x and  <span id="inline_equation">\\(\bar{y}\\) </span> is mean of y.
-Sum of multiplied differences of x from it's mean and y from it's mean are divided by sum of squared differences between x from it's mean.<br/>
+Sum of multiplied differences of x from it's mean and y from it's mean are divided by sum of squared differences of x from it's mean.<br/>
 If bias b is not given then it is calculated as below:
 <span id="centered_equation">
 \begin{array}{cccc}
