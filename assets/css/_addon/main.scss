@@ -59,7 +59,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Josefin Sans','Titillium Web','Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Titillium Web','Roboto Condensed','Josefin Sans','Source Sans Pro',  sans-serif;  
 }
 
 /*--- sidebar layout ---*/
@@ -70,7 +70,7 @@ $sidebar-display: "sidebar-display";
 #sidebar {
   @include pl-pr(0);
   position: fixed;
-  font-family: 'Product Sans', 'Titillium Web','Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Titillium Web','Product Sans', 'Source Sans Pro', sans-serif;
   top: 0;
   left: 0;
   height: 100%;
@@ -85,7 +85,7 @@ $sidebar-display: "sidebar-display";
   .site-title {
     text-align: center;
     a {
-      // color: var(--site-title-color);
+      color: var(--site-title-color);
       font-weight: 900;
       font-size: 1.3rem;
       letter-spacing: .9px;
@@ -112,12 +112,12 @@ $sidebar-display: "sidebar-display";
   }
   .nav-link {
     border-radius: 0;
-    font-size: .97rem;
+    font-size: .92rem;
     font-weight: 800;
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
   }
   .nav-item {
-    height: 2.8rem;
+    height: 2.2rem;
     &:hover {
       .nav-link {
         color: #f8f9facf;
@@ -130,7 +130,7 @@ $sidebar-display: "sidebar-display";
     }
   }
   ul {
-    height: 2.8rem * $tab-count;
+    height: 2.2rem * $tab-count;
     display: -webkit-box;
     display: -ms-flexbox;
 
@@ -182,7 +182,7 @@ $sidebar-display: "sidebar-display";
     font-size: 1.2rem;
     margin: 2rem 2.5rem 1.6rem;
     a {
-      margin-bottom: .5rem; // icons may have multi lines
+      margin-bottom: .2rem; // icons may have multi lines
     }
 
     a:hover, #mode-toggle-wrapper>i:hover {
@@ -796,11 +796,11 @@ table {
 }
 
 .post-meta {
-  font-size: 0.85rem;
-  word-spacing: 1px;
+  font-size: 0.92rem;
+  font-family: 'Titillium Web','Roboto Condensed';
+  word-spacing: 2px;  
   a {
-    @extend %link-color;
-    @extend %link-underline;
+    @extend %link-color;    
     &:not(:last-child) {
       margin-right: 2px;
     }

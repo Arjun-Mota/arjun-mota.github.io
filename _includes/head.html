@@ -8,34 +8,69 @@
   content="{{ site.description }}">
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://arjun-mota.github.io/">
-<meta property="og:title"
-  content="{{ site.title}}">
-<meta property="og:description"
-  content="{{ site.description }}">
-<meta property="og:image" content="https://arjun-mota.github.io/assets/img/sample/cover.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ site.url}}{{ page.url}}">
+
+{% if page.title %}
+<meta property="og:title" content="{{ page.title}}">
+{% else %}
+<meta property="og:title" content="{{ site.title}}">
+{% endif %}
+
+{% if page.summary %}
+<meta property="og:description" content="{{ page.summary }}">
+{% else %}
+<meta property="og:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta property="og:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta property="og:image" content="{{ site.url }}{{ site.cover_image }}">
+{% endif %}
+
+{% if page.image %}
+<meta property="og:image:secure_url" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta property="og:image:secure_url" content="{{ site.url }}{{ site.cover_image }}">
+{% endif %}
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://arjun-mota.github.io/">
-<meta property="twitter:title" content="{{ site.title}}">
-<meta property="twitter:description" content="{{ site.description }}">
-<meta property="twitter:image" content="https://arjun-mota.github.io/assets/img/sample/cover.png">
-<meta property="twitter:image:alt" content="https://arjun-mota.github.io/">
+<meta name="twitter:url" content="{{ site.url}}{{ page.url}}">
+<meta name="twitter:site" content="@ArjunMota">
+
+{% if page.title %}
+<meta name="twitter:title" content="{{ page.title}}">
+{% else %}
+<meta name="twitter:title" content="{{ site.title}}">
+{% endif %}
+{% if page.summary %}
+<meta name="twitter:description" content="{{ page.summary }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ site.cover_image }}">
+{% endif %}
+
   <title>
   {%- unless page.layout == "home" -%}
-    {{ page.title | append: " | "}}
+    {{ page.title | append: " - "}}
   {%- endunless -%}
     {{ site.title }}
   </title>
 
-  {% seo title=true %}
+  {% seo title=false %}
 
   {% include favicons.html %}
 
   <!-- Blog Card -->
-  <link rel="image_src" href="https://arjun-mota.github.io/assets/img/sample/cover.png" />
+  <link rel="image_src" href="{{ site.url }}{{ site.cover_image }}" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">

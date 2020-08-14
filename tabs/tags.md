@@ -1,6 +1,7 @@
 ---
 title: Tags
 type: tags
+summary: All the tags related to different topics available on this blog.
 ---
 
 {% comment %}

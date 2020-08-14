@@ -1,6 +1,7 @@
 ---
 title: Categories
 type: categories
+summary: All the articles categorized in various topics.
 ---
 
 {% assign HEAD_PREFIX = "h_" %}

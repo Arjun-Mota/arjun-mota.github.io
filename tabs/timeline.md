@@ -1,6 +1,7 @@
 ---
 title: Timeline
 type: timeline
+summary: Timeline of all the article by their posting dates.
 ---
 
 <div id="archives" class="pl-xl-2">

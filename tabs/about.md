@@ -3,6 +3,7 @@ title: About
 type: about
 layout: post
 date: 2020-08-09 23:00:00 +0530
+summary: About Arjun Mota and this blog's tour and it's purpose.
 toc: true
 math: true
 ---
@@ -14,9 +15,9 @@ My name is Arjun Mota.  I am a Software Engineer live in Mumbai, Maharashtra - I
 
 ## Professional Experience  
 
-|Designation|Company Name|Duration|
-|:---|:----|--:|
-|Software Engineer | Springernature Technology & Publishing Solutions (175+ years old Germany based world's leading publication company) | Jun-2016 To Dec-2018
+|Designation|Company Name|
+|:---|:----|
+|Software Engineer | Springernature Technology & Publishing Solutions (175+ years old Germany based world's leading publication multinational company) |
 
 ⦿ Worked on Flagship Product Automated Manuscript Processing Platform, where tasks like manuscript content structuring, shuffling, conversion, identification, marking, XML generation, validation, etc. were being done with a strategically designed set of modules in different languages like Python, Java, etc.<br/>
 ⦿ Developed Manuscript Cleanup module from scratch which got integrated with the above platform on production.  <br/>
@@ -25,11 +26,11 @@ My name is Arjun Mota.  I am a Software Engineer live in Mumbai, Maharashtra - I
 ⦿ Conducted intuitive and informational sessions on clean coding.  <br/>
 ⦿ Guided Junior Engineers for clean coding and problem-solving.<br/>
 
-|Designation|Company Name|Duration|
-|:---|:----|--:|
-|Academic Intern | Persistent Systems (Fortune 500 Company) | Jan-2016 To Jun-2016
+|Designation|Company Name|
+|:---|:----|
+|Academic Intern | Persistent Systems (Fortune 500 Multinational Company) |
 
-⦿ Worked in BFSI (Banking, Financial Services, and Insurance) department on Business Process Management Applications  <br/>
+⦿ Worked in BFSI (Banking, Financial Services, and Insurance) department on Business Process Management Applications.  <br/>
 ⦿ Helped Senior Engineers in the development and maintenance of ongoing and new applications.  <br/>
 ⦿ Learned Appian Tool to develop BPM applications.  <br/>
 ⦿ Developed a Vehicle Management System as part of the final semester academic project.  <br/>
@@ -97,6 +98,7 @@ Menu on the left side contains some links, brief explaination of them are as und
 ├── Home  > All the updates will appear here.
 ├── Categories  > Contains all the articles clustered into several categories.
 ├── Timeline  > Timeline of all the articles by posting date.
+├── Tags  > Tags related to all the articles.
 ├── About  > You can get to learn more about me and content of this blog.
 ```
 

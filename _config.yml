@@ -13,7 +13,7 @@ title: Arjun Mota's Blog                     # the main title
 tagline: AI | Machine Learning | Data-Science | Big-Data | Software-Engineering | Cloud Computing | IoT | Projects, Interests and Experiences | Misc   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  This blog is representing his background, projects, interests and various blog posts 
+  This blog is representing Arjun Mota's background, projects, interests and various blog posts 
   on topics ranging from AI, Machine Learning, Deep Learning, Data Science, and new researches 
   related to them, Statistical Analysis, Tableau, Python, Java, Software Engineering, Microsoft Power Bi, 
   Data Analytics, Data Visualization, Cloud Computing, Databases (SQL, NoSQL), Clean coding, Big data,Analytics, 
@@ -37,6 +37,9 @@ linkedin:
 
 hackerrank:
   username: Arjun_Mota
+
+datacamp:
+  username: arjunmota
 
 social:
   name: Arjun Mota                  # it will shows as the copyright owner in Footer

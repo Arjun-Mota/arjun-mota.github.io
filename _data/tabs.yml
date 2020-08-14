@@ -4,7 +4,6 @@
 #  © 2020 Cotes Chung
 #  MIT Licensed
 
-
 -
   name: Home
   icon: "fas fa-home"
@@ -18,6 +17,11 @@
   path: tabs
   url: timeline
   icon: "fas fa-archive"
+-
+  name: "Tags"
+  icon: "fas fa-tags"
+  path: tabs
+  url: tags
 -
   name: "About"
   icon: "fas fa-info"
