@@ -2,7 +2,7 @@
 title: About
 type: about
 layout: post
-date: 2020-08-09 23:00:00 +0530
+date: 2020-08-16 11:00:00 +0530
 summary: About Arjun Mota and this blog's tour and it's purpose.
 toc: true
 math: true
