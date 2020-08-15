@@ -90,6 +90,9 @@ In personal life I like to travel to new places, reading books, travelling, go f
 
 ## About This Blog
 
+I will be sharing posts on various topics in this blog like AI, Machine Learning, Deep Learning, Data Science, and new researches related to them, Software Engineering, Clean coding, Big data, Analytics, IoT, Cloud Computing and some miscellaneous stuff that I am interested about.<br/>
+Let me give you a short tour of my blog.
+
 ### Left Menu
 
 Menu on the left side contains some links, a brief explanation of them are as under:
@@ -111,8 +114,9 @@ You can also search articles from top right corner's search box. At the bottom o
 
 The whole purpose of this blog is to share the knowledge, learn from the community and showcasing my capabilities and point of view in different aspects of professional, personal and social life.
 
-Keep on coming to this place for more interesting stuff.
-<br/>Thanks for visiting my blog.
+Keep on coming to this place for more interesting stuff.<br/>
+Please bookmark this blog if you are interested in the content I described earlier, so you can never miss any update.<br/>
+Thanks for visiting my blog.
 <hr>
 
 >\"Be ashamed to die until you have won some victory for humanity.\" <b>–Horace Mann</b>
