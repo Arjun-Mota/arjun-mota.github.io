@@ -92,7 +92,7 @@ In personal life I like to travel to new places, reading books, travelling, go f
 
 ### Left Menu
 
-Menu on the left side contains some links, brief explaination of them are as under:
+Menu on the left side contains some links, a brief explanation of them are as under:
 
 ```terminal
 ├── Home  > All the updates will appear here.
