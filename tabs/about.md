@@ -2,7 +2,7 @@
 title: About
 type: about
 layout: post
-date: 2020-08-16 11:00:00 +0530
+date: 2020-08-16 12:00:00 +0530
 summary: About Arjun Mota and this blog's tour and it's purpose.
 toc: true
 math: true
@@ -80,7 +80,7 @@ Curiosity about Leveraging Big Data ✔
 |Virtual Classroom | Web application to manage to study from home with course management, subject-wise material, live and offline streaming, blog posts, student forum, etc. |
 
 ```
-Note: Most of them are available on my Github account with detailed explaination.
+Note: Most of them are available on my Github account with detailed explanation.
 ```
 ## Personal Life
 
