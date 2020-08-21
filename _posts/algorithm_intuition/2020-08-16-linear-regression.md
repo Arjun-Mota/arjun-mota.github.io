@@ -2,6 +2,7 @@
 title: Linear Regression - Algorithm Intuition
 author: Arjun Mota
 date: 2020-08-16 12:00:00 +0530
+lastmod: 2020-08-21 18:45:00 +0530
 image: /assets/img/sample/Linear Regression Cover.png
 summary: Linear regression algorithm explaination, usecases, diagrams and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
@@ -154,7 +155,7 @@ Here in the above graph, we can see the representation of linear regression data
 
 Our straight line of linear regression should cover most of the data points for better prediction. Better the straight line, less the error in prediction. But don't misunderstand that we need to make sure it does not overfit, as it will result in an excellent performance on test data and very poor on new data. Our goal should be making a generalized model that works well with all kinds of data.
 
-For evaluating our model, we can use various metrics like mean squared error [MSE], rooted mean square error [RMSE], etc. I will be covering different evaluation metrics in detail in an another article. So, keep checking my blog once in a while, new article will appear on a home page.
+For evaluating our model, we can use various metrics like mean squared error [MSE], rooted mean square error [RMSE], etc. I have covered different evaluation metrics in detail here: <a href="/tags/evaluation-metrics/">Evaluation Metrics</a>. Keep checking my blog once in a while, new article will appear on a home page.
 
 
 ## End Quote

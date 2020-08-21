@@ -43,7 +43,7 @@ Let's look at one example for better understanding:
 |25.7|22.1|3.6|
 |15.8|11.2|4.6|
 
-if we calculate the summation of absolute differences, it would be like:
+if we calculate the summation of absolute differences, it would be like:<br/>
 <span id="inline_equation">\\( 2.2 + 3.6 + 4.6 = 10.4\\)</span>
 <br/><br/>
 10.4 is our sum of absolute differences. Remember -2.2 will become 2.2 when we take an absolute value. | | (pipes) in our formula are meant for that.<br/>
