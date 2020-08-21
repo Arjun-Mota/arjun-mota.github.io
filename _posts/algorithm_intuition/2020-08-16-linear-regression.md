@@ -2,9 +2,8 @@
 title: Linear Regression - Algorithm Intuition
 author: Arjun Mota
 date: 2020-08-16 12:00:00 +0530
-lastmod: 2020-08-21 18:45:00 +0530
 image: /assets/img/sample/Linear Regression Cover.png
-summary: Linear regression algorithm explaination, usecases, diagrams and formulas used in development.
+summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
 tags: [regression, machine learning]
 math: true
