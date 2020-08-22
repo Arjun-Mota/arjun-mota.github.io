@@ -2,7 +2,8 @@
 title: Linear Regression - Algorithm Intuition
 author: Arjun Mota
 date: 2020-08-16 12:00:00 +0530
-image: /assets/img/sample/Linear Regression Cover.png
+image: /assets/img/sample/linear_regression_cover.png
+social_card: /assets/img/social_card/linear_regression.png
 summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
 tags: [regression, machine learning]
@@ -143,14 +144,14 @@ Alright, Well done! We are done with the math of multiple linear regression as w
 
 ## Diagram
 
-<img src="/assets/img/sample/Linear_Regression.png" alt="Linear regression diagram">
+<img src="/assets/img/sample/linear_regression.png" alt="Linear regression diagram">
 
 ### Details
 
 We need to remember that it only works well when dependent and independent features are positively correlated and linearly separable.
 Here in the above graph, we can see the representation of linear regression data points on a straight line that shows how data distributed in different places, house price and number of bedrooms are also positively correlated as number of bedrooms increases house price also increases.
 
-### Conclusion
+## Conclusion
 
 Our straight line of linear regression should cover most of the data points for better prediction. Better the straight line, less the error in prediction. But don't misunderstand that we need to make sure it does not overfit, as it will result in an excellent performance on test data and very poor on new data. Our goal should be making a generalized model that works well with all kinds of data.
 

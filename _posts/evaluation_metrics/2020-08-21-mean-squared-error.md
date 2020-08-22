@@ -3,6 +3,7 @@ title: Mean Squared Error (MSE) - Evaluation Metrics
 author: Arjun Mota
 date: 2020-08-21 18:45:00 +0530
 image: /assets/img/sample/mean_squared_error.png
+social_card: /assets/img/social_card/mean_squared_error.png
 summary: Machine learning model evaluation metric MSE (mean squared error) explanation, formula and usecases of it.
 categories: [Artificial Intelligence, Evaluation Metrics]
 tags: [machine learning, evaluation metrics, mean squared error, machine learning glossary]

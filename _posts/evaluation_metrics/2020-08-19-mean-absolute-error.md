@@ -3,6 +3,7 @@ title: Mean Absolute Error (MAE) - Evaluation Metrics
 author: Arjun Mota
 date: 2020-08-19 16:50:00 +0530
 image: /assets/img/sample/mean_absolute_error.png
+social_card: /assets/img/social_card/mean_absolute_error.png
 summary: Machine learning model evaluation metric MAE (mean absolute error) explanation, formula and usecases of it.
 categories: [Artificial Intelligence, Evaluation Metrics]
 tags: [machine learning, evaluation metrics, mean abolute error, machine learning glossary]

@@ -9,16 +9,11 @@ summary: All the tags related to different topics available on this blog.
   Print the {{ site.tags }} will help you to understand it.
 {% endcomment %}
 <div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
-{% assign tags = "" | split: "" %}
-{% for t in site.tags %}
-  {% assign tags = tags | push: t[0] %}
-{% endfor %}
+{% assign sorted_tags_by_posts_count = site.tags | sort_tags_by_posts_count %}
 
-{% assign sorted_tags = tags | sort_natural %}
-
-{% for t in sorted_tags %}
+{% for t in sorted_tags_by_posts_count %}
   <div>
-    <a class="tag" href="{{ site.baseurl }}/tags/{{ t | replace: ' ', '-' | downcase | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+    <a class="tag" href="{{ site.baseurl }}/tags/{{ t[0] | replace: ' ', '-' | downcase | url_encode }}/">{{ t[0] }}<span class="text-muted">{{ t[1] }}</span></a>
   </div>
 {% endfor %}
 
