@@ -1,9 +1,12 @@
 -
   filename: 'linear-regression'
-  lastmod: '2020-08-22 09:00:24 +0530'
+  lastmod: '2020-08-25 03:18:09 +0530'
 -
   filename: 'mean-absolute-error'
-  lastmod: '2020-08-22 08:43:47 +0530'
+  lastmod: '2020-08-25 03:18:09 +0530'
 -
   filename: 'mean-squared-error'
-  lastmod: '2020-08-22 08:43:47 +0530'
+  lastmod: '2020-08-25 03:18:09 +0530'
+-
+  filename: 'root-mean-squared-error'
+  lastmod: '2020-08-25 03:18:09 +0530'
