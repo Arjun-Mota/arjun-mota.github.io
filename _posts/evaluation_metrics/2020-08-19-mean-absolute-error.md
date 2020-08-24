@@ -17,7 +17,7 @@ Mean absolute error is one of the evaluation metrics used in measuring the accur
 
 ## Formula
 
-<span id="centered_equation">
+<span class="centered_equation">
 \begin{equation}
 \mathrm{MAE}= \frac{1}{\mathrm{n}} \sum_{\mathrm{j}=1}^{\mathrm{n}} \left| \mathrm{y}_{\mathrm{j}}-\mathrm{\hat y} _ {\mathrm{j}}\right|
 \end{equation}
@@ -25,14 +25,14 @@ Mean absolute error is one of the evaluation metrics used in measuring the accur
 
 ## Explanation
 
-Here, <span id="inline_equation">\\( \sum \\)</span> = symbol for doing addition of values,<br/>
-<span id="equation_variables">n = </span> number of records,<br/>
-<span id="equation_variables">j = </span> record index starting from 1 (first record),<br/>
-<span id="equation_variables">y = </span> actual record from our testing data,<br/>
-<span id="inline_equation">\\( \mathrm{\hat y} \\)</span> = predicted value of y record from a model,<br/>
-<span id="equation_variables">|   |</span> = pipes for converting floating point value to absolute value<br/>
+Here, <span class="inline_equation">\\( \sum \\)</span> = symbol for doing addition of values,<br/>
+<span class="equation_variables">n = </span> number of records,<br/>
+<span class="equation_variables">j = </span> record index starting from 1 (first record),<br/>
+<span class="equation_variables">y = </span> actual record from our testing data,<br/>
+<span class="inline_equation">\\( \mathrm{\hat y} \\)</span> = predicted value of y record from a model,<br/>
+<span class="equation_variables">|   |</span> = pipes for converting floating point value to absolute value<br/>
 
-So, this formula will calculate the sum of absolute differences between the actual value <span id="equation_variables">y</span> and predicted value <span id="inline_equation">\\( \mathrm{\hat y} \\)</span> (yhat) for all records and divide them by <span id="equation_variables">n</span> the number of records.
+So, this formula will calculate the sum of absolute differences between the actual value <span class="equation_variables">y</span> and predicted value <span class="inline_equation">\\( \mathrm{\hat y} \\)</span> (yhat) for all records and divide them by <span class="equation_variables">n</span> the number of records.
 
 ## Example
 
@@ -45,11 +45,11 @@ Let's look at one example for better understanding:
 |15.8|11.2|4.6|
 
 if we calculate the summation of absolute differences, it would be like:<br/>
-<span id="inline_equation">\\( 2.2 + 3.6 + 4.6 = 10.4\\)</span>
+<span class="inline_equation">\\( 2.2 + 3.6 + 4.6 = 10.4\\)</span>
 <br/><br/>
 10.4 is our sum of absolute differences. Remember -2.2 will become 2.2 when we take an absolute value. | | (pipes) in our formula are meant for that.<br/>
 Now, we will divide 10.4 by 3 which is the number of records in this case:
-<br/><br/><span id="inline_equation">\\( 10.4 / 3 = 3.67\\)</span><br/><br/>
+<br/><br/><span class="inline_equation">\\( 10.4 / 3 = 3.67\\)</span><br/><br/>
 3.67 is our MAE (Mean Absolute Error).
 <br/>
 That's it! You are done with the MAE (Mean Absolute Error).

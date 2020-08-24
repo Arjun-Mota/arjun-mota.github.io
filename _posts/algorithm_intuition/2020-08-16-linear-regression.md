@@ -40,50 +40,50 @@ Consider predicting house price, where house price is the dependent variable tha
 Remember that linear regression works only with numerical values, so if your variables are categorical and useful for your model then encode them to numbers. There are certain ways of doing that, those will be covered in a different article.
 Let’s understand the intuition behind this algorithm. So, here is an equation behind it:
 
-<span id="centered_equation">
+<span class="centered_equation">
 \$\$
 y = mx + b
 \$\$
 </span>
 
-<span id="equation_variables">y</span> = dependent variable that we want to predict (house price),<br/>
-<span id="equation_variables">m</span> = slope, weight or coefficient,<br/>
-<span id="equation_variables">x</span> = our input feature (e.g. number of bedrooms) remain constant  (model parameter),<br/>
-<span id="equation_variables">b</span> = bias term/intercept (model parameter)<br/>
+<span class="equation_variables">y</span> = dependent variable that we want to predict (house price),<br/>
+<span class="equation_variables">m</span> = slope, weight or coefficient,<br/>
+<span class="equation_variables">x</span> = our input feature (e.g. number of bedrooms) remain constant (model parameter),<br/>
+<span class="equation_variables">b</span> = bias term/intercept (model parameter).<br/>
 
 Here the question is how m (coefficient) is calculated?<br/>
 It is called least squares method, let’s see how it works:
-<span id="centered_equation">
+<span class="centered_equation">
 \begin{array}{cccc}
 \mathrm{m}=\frac{\sum[(x i-\bar{x})(y i-\bar{y})]}{\sum\left[(x i-\bar{x})^{2}\right]}
 \end{array}
 </span>
 
 here 
-<span id="inline_equation">\\(
+<span class="inline_equation">\\(
 \bar{x}
 \\) </span>
-is mean of x and  <span id="inline_equation">\\(\bar{y}\\) </span> is mean of y.
+is mean of x and  <span class="inline_equation">\\(\bar{y}\\) </span> is mean of y.
 Sum of multiplied differences of x from it's mean and y from it's mean are divided by sum of squared differences of x from it's mean.<br/>
 If bias b is not given then it is calculated as below:
-<span id="centered_equation">
+<span class="centered_equation">
 \begin{array}{cccc}
 \mathrm{b}=\bar{y}-m * \bar{x}
 \end{array}
 </span>
 
-That’s it for linear regression with one feature, now when we will give a new data i.e. number of bedrooms as an input to our model, it will calculate <span id="equation_variables">y = mx + b</span> and give us our output y which is called yhat. When we check an accuracy of our model we check the difference between output yhat and actual value y in our test data.
+That’s it for linear regression with one feature, now when we will give a new data i.e. number of bedrooms as an input to our model, it will calculate <span class="equation_variables">y = mx + b</span> and give us our output y which is called yhat. When we check an accuracy of our model we check the difference between output yhat and actual value y in our test data.
 
-With <span id="equation_variables">y = mx + b</span> equation, we can get a predicted value of y only if we have one independent variable/feature like the number of bedrooms in house price prediction.
+With <span class="equation_variables">y = mx + b</span> equation, we can get a predicted value of y only if we have one independent variable/feature like the number of bedrooms in house price prediction.
 
 In case of multiple features, we have to use multiple linear regression, have a look at the below equation for that:
-<span id="centered_equation">
+<span class="centered_equation">
 \begin{array}{cccc}
 y=b_{1} x_{1}+b_{2} x_{2} \ldots . . b_{n} x_{k}+b_{0}
 \end{array}
 </span>
 In this case, calculation requires matrices as follows:
-<span id="centered_equation">
+<span class="centered_equation">
 \$\$ y = \\pmatrix{
 y_{1} \\cr
 y_{2} \\cr
@@ -93,7 +93,7 @@ y_{n} \\cr
 } \$\$
 </span>
 
-<span id="centered_equation">
+<span class="centered_equation">
 \$\$ b = \\pmatrix{
 b_{0} \\cr
 b_{1} \\cr
@@ -102,7 +102,8 @@ b_{2} \\cr
 b_{n} \\cr
 } \$\$
 </span>
-<span id="centered_equation">
+
+<span class="centered_equation">
 \$\$ x = \\pmatrix{
 1 & x_{11} & x_{12} & \\ldots & x_{1k} \\cr
 1 & x_{21} & x_{22} & \\ldots & x_{2k} \\cr
@@ -113,28 +114,28 @@ b_{n} \\cr
 </span>
 
 Unlike the first equation, here 
-<span id="centered_equation">
+<span class="centered_equation">
 \$\$
 y = x * b
 \$\$
 </span>
-because b contains <span id="inline_equation">\\(
+because b contains <span class="inline_equation">\\(
 b_{0}
-\\) </span> as bias term with all coefficients and given y is a matrix of all actual values of y that we have in our training data. x has 1's in first column that will be scores of each record of our dataset, and rest are all the records. We have n records and k features/variables in this matrix.
+\\) </span> as bias term with all coefficients and given y is a matrix of all predicted values of y that we will have after doing this computations. x has 1's in first column that will be scores of each record of our dataset, and rest are all the records. We have n records and k features/variables in this matrix.
 
 So, how coefficients are calculated in multiple linear regression?
 
 Below mentioned equation of computing coefficients of multiple linear regression is called least squares normal equation.<br/>
-<span id="centered_equation">
+<span class="centered_equation">
 \$\$ b=\left(x^{\prime} x\right)^{-1} x^{\prime} y \$\$
 </span>
 
-here <span id="inline_equation">\\( x^{\prime}\\) </span> is transpose matrix of x,
-<span id="inline_equation">\\( \left(x^{\prime} x\right)^{-1}\\) </span> is inverse of <span id="inline_equation">\\( \left(x^{\prime} x\right)\\) </span> matrix,
+here <span class="inline_equation">\\( x^{\prime}\\) </span> is transpose matrix of x,
+<span class="inline_equation">\\( \left(x^{\prime} x\right)^{-1}\\) </span> is inverse of <span class="inline_equation">\\( \left(x^{\prime} x\right)\\) </span> matrix,
 
 After putting all values in place, we will get coefficients in b, which are same as earlier discussed single feature bias term:
 
-<span id="centered_equation">
+<span class="centered_equation">
 \$\$
 \mathrm{b}=\bar{y}-m * \bar{x}
 \$\$
@@ -155,7 +156,7 @@ Here in the above graph, we can see the representation of linear regression data
 
 Our straight line of linear regression should cover most of the data points for better prediction. Better the straight line, less the error in prediction. But don't misunderstand that we need to make sure it does not overfit, as it will result in an excellent performance on test data and very poor on new data. Our goal should be making a generalized model that works well with all kinds of data.
 
-For evaluating our model, we can use various metrics like mean squared error [MSE], rooted mean square error [RMSE], etc. I have covered different evaluation metrics in detail here: <a href="/tags/evaluation-metrics/">Evaluation Metrics</a>. Keep checking my blog once in a while, new article will appear on a home page.
+For evaluating our model, we can use various metrics like <a href="/posts/mean-squared-error/">mean squared error [MSE]</a>, <a href="/posts/root-mean-squared-error/">rooted mean square error [RMSE],</a> etc. I have covered different evaluation metrics in detail here: <a href="/tags/evaluation-metrics/">Evaluation Metrics</a>. Keep checking my blog once in a while, new article will appear on a home page.
 
 
 ## End Quote

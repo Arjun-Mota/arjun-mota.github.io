@@ -27,18 +27,18 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
   border-color: var(--btn-border-color);
 }
 
-#centered_equation {
+.centered_equation {
 font-size: 1.2rem;
 text-align: center;
 align-content: center;
 align-self: center;
 }
 
-#inline_equation{
+.inline_equation{
   font-size: 1.6rem;
 }
 
-#equation_variables{
+.equation_variables{
   font-size:.1.1rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
