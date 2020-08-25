@@ -38,7 +38,7 @@ Let's solve one example:
 
 Suppose we have a data with R-Squared <span class="equation_variables">\\( R^{2} \\)</span> = 0.73, number of records <span class="equation_variables">n</span> = 87652, number of variables (excluding dependent variable) <span class="equation_variables">k</span> = 34.<br/>
 
-If you want to know how to calculate the R-Squared <span class="equation_variables">\\( R^{2} \\)</span>, then check out here: <a href="/Posts/r-squared/">R-Squared</a><br/><br/>
+If you want to know how to calculate the R-Squared <span class="equation_variables">\\( R^{2} \\)</span>, then check out here: <a href="/posts/r-squared/">R-Squared</a><br/><br/>
 Now, we will put this data into the Adjusted R-Squared formula:
 
 <span class="centered_equation">
