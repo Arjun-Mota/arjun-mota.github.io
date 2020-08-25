@@ -121,7 +121,7 @@ y = x * b
 </span>
 because b contains <span class="inline_equation">\\(
 b_{0}
-\\) </span> as bias term with all coefficients and given y is a matrix of all predicted values of y that we will have after doing this computations. x has 1's in first column that will be scores of each record of our dataset, and rest are all the records. We have n records and k features/variables in this matrix.
+\\) </span> as bias term with all coefficients and given y is a matrix of all predicted values that we will have after doing this computations. x has 1's in first column that will be scores of each record of our dataset, and rest are all the records. We have n records and k features/variables in this matrix.
 
 So, how coefficients are calculated in multiple linear regression?
 
@@ -161,4 +161,4 @@ For evaluating our model, we can use various metrics like <a href="/posts/mean-s
 
 ## End Quote
 
-> “Machine intelligence is the last invention that humanity will ever need to make.” ~ Nick Bostrom
+> “Machine intelligence is the last invention that humanity will ever need to make.” ~ <b>Nick Bostrom</b>
