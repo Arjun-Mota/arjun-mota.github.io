@@ -84,7 +84,7 @@ Note: Most of them are available on my Github account with detailed explanation.
 ```
 ## Personal Life
 
-In personal life I like to travel to new places, reading books, travelling, go for trekking, listen to music, talk to new people and join them for social work and saving the environment.  
+In personal life I like to travel to new places, reading books, go for trekking, listen to music, talk to new people and join them for social work and saving the environment. 
   
 >"Get most out of life, make memories and spread happiness".
 
@@ -108,7 +108,7 @@ Menu on the left side contains some links, a brief explanation of them are as un
 ### Bottom Links and Panels
 
 If you are viewing this website on a desktop, I would also suggest you to explore all tags by clicking on Tags in left menu or see all tags link on the top right  trending tags panel.<br/>
-You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my github, linkedin, hackerrank profiles, email id and rss link.
+You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my github, linkedin, hackerrank profiles, email id and rss link. On almost every page you will see arrow in a circle pointing upward at bottom right place, that is for going to top of the page.
 
 ### Purpose
 
