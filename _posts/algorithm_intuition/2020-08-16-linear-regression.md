@@ -4,7 +4,7 @@ author: Arjun Mota
 date: 2020-08-16 12:00:00 +0530
 image: /assets/img/sample/linear_regression_cover.png
 social_card: /assets/img/social_card/linear_regression.png
-summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in development.
+summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in a development.
 categories: [Artificial Intelligence, Algorithm Intuition]
 tags: [regression, machine learning]
 math: true
@@ -50,6 +50,8 @@ y = mx + b
 <span class="equation_variables">m</span> = slope, weight or coefficient,<br/>
 <span class="equation_variables">x</span> = our input feature (e.g. number of bedrooms) remain constant (model parameter),<br/>
 <span class="equation_variables">b</span> = bias term/intercept (model parameter).<br/>
+
+### Cost Function > Single Linear Regression
 
 Here the question is how m (coefficient) is calculated?<br/>
 It is called least squares method, let’s see how it works:
@@ -123,15 +125,17 @@ because b contains <span class="inline_equation">\\(
 b_{0}
 \\) </span> as bias term with all coefficients and given y is a matrix of all predicted values that we will have after doing this computations. x has 1's in first column that will be scores of each record of our dataset, and rest are all the records. We have n records and k features/variables in this matrix.
 
+### Cost Function > Multi Linear Regression
+
 So, how coefficients are calculated in multiple linear regression?
 
 Below mentioned equation of computing coefficients of multiple linear regression is called least squares normal equation.<br/>
 <span class="centered_equation">
-\$\$ b=\left(x^{\prime} x\right)^{-1} x^{\prime} y \$\$
+\$\$ b=\left(x^{T} x\right)^{-1} x^{T} y \$\$
 </span>
 
-here <span class="inline_equation">\\( x^{\prime}\\) </span> is transpose matrix of x,
-<span class="inline_equation">\\( \left(x^{\prime} x\right)^{-1}\\) </span> is inverse of <span class="inline_equation">\\( \left(x^{\prime} x\right)\\) </span> matrix,
+here <span class="inline_equation">\\( x^{T}\\) </span> is the transpose matrix of x,
+<span class="inline_equation">\\( \left(x^{T} x\right)^{-1}\\) </span> is an inverse of <span class="inline_equation">\\( \left(x^{T} x\right)\\) </span> matrix,
 
 After putting all values in place, we will get coefficients in b, which are same as earlier discussed single feature bias term:
 
@@ -156,7 +160,7 @@ Here in the above graph, we can see the representation of linear regression data
 
 Our straight line of linear regression should cover most of the data points for better prediction. Better the straight line, less the error in prediction. But don't misunderstand that we need to make sure it does not overfit, as it will result in an excellent performance on test data and very poor on new data. Our goal should be making a generalized model that works well with all kinds of data.
 
-For evaluating our model, we can use various metrics like <a href="/posts/mean-squared-error/">mean squared error [MSE]</a>, <a href="/posts/root-mean-squared-error/">rooted mean square error [RMSE],</a> etc. I have covered different evaluation metrics in detail here: <a href="/tags/evaluation-metrics/">Evaluation Metrics</a>. Keep checking my blog once in a while, new article will appear on a home page.
+For evaluating our model, we can use various metrics like <a href="/posts/mean-squared-error/">mean squared error [MSE]</a>, <a href="/posts/root-mean-squared-error/">rooted mean squared error [RMSE],</a> etc. I have covered different evaluation metrics in detail here: <a href="/tags/evaluation-metrics/">Evaluation Metrics</a>. Keep checking my blog once in a while, new article will appear on a home page.
 
 
 ## End Quote
