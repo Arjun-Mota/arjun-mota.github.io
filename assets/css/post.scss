@@ -28,7 +28,7 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
 }
 
 .centered_equation {
-font-size: 5vw * .5;
+font-size: calc(1.3rem + ((1vw - 0.48rem) * 1.3889));
 text-align: center;
 align-content: center;
 align-self: center;
