@@ -123,11 +123,11 @@ b_{0}
 
 Below mentioned equation is used for finding coefficients:<br/>
 <span class="centered_equation">
-\$\$ b=\left(x^{\prime} x\right)^{-1} x^{\prime} y \$\$
+\$\$ b=\left(x^{T} x\right)^{-1} x^{T} y \$\$
 </span>
 
-here <span class="inline_equation">\\( x^{\prime}\\) </span> is transpose matrix of x,
-<span class="inline_equation">\\( \left(x^{\prime} x\right)^{-1}\\) </span> is inverse of <span class="inline_equation">\\( \left(x^{\prime} x\right)\\) </span> matrix.<br/>
+here <span class="inline_equation">\\( x^{T}\\) </span> is transpose matrix of x,
+<span class="inline_equation">\\( \left(x^{T} x\right)^{-1}\\) </span> is inverse of <span class="inline_equation">\\( \left(x^{T} x\right)\\) </span> matrix.<br/>
 
 By performing these computations, we will get a curvy line on a graph that covers most of our data through our coefficients and bias term, just like below in the diagram.<br/>
 We have finished with the math behind polynomial regression.<br/>

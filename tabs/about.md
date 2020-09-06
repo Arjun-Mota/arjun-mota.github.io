@@ -52,7 +52,6 @@ Following my aspiration of becoming a Data scientist, I am utilizing my skill-se
 |<span class="iconify" data-icon="cib:mongodb" data-inline="false" data-width="30" data-height="30" style="color:green;"></span>|NoSQL|
 |<span class="iconify" data-icon="simple-icons:powerbi" data-inline="false" data-height="30" style="color:lime;"></span>|Power Bi|
 |<span class="iconify" data-icon="cib:tableau" data-inline="false" data-height="30" style="color:darkaqua;"></span>|Tableau|
-|<span class="iconify" data-icon="logos:hadoop" data-inline="false" data-height="30"></span>|Hadoop|
 |<span class="iconify" data-icon="cib:apache-spark" data-inline="false" data-height="30" style="color:green;"></span>|Spark|
 
 ### Expertise  
