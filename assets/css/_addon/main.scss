@@ -117,7 +117,7 @@ $sidebar-display: "sidebar-display";
     letter-spacing: 1.3px;
   }
   .nav-item {
-    height: 2.2rem;
+    height: 2rem;
     &:hover {
       .nav-link {
         color: #f8f9facf;
@@ -180,9 +180,11 @@ $sidebar-display: "sidebar-display";
 
   .sidebar-bottom {
     font-size: 1.2rem;
-    margin: 2rem 2.5rem 1.6rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     a {
-      margin-bottom: .2rem; // icons may have multi lines
+      margin-bottom: 1.2rem; // icons may have multi lines
     }
 
     a:hover, #mode-toggle-wrapper>i:hover {
