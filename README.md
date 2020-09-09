@@ -6,4 +6,4 @@ My blog is consists of posts on AI, Machine Learning, Data-Science, Big-Data, So
 
 If you are interested to know more then visit my blog @ https://arjun-mota.github.io
 
-![Desktop View]({{ "assets/img/sample/cover.png" | relative_url }})
+![https://arjun-mota.github.io/](https://arjun-mota.github.io/assets/img/sample/cover.png)
