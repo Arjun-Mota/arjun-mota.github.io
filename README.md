@@ -1,5 +1,9 @@
 # arjun.mota.github.io
 
-This is a blog repository of Arjun Mota with github pages.
+This is my blog repository deployed with github pages.
 
-Go to: https://arjun-mota.github.io
+My blog is consists of posts on AI, Machine Learning, Data-Science, Big-Data, Software-Engineering, Cloud Computing, etc.
+
+If you are interested to know more then visit my blog @ https://arjun-mota.github.io
+
+![Desktop View]({{ "assets/img/sample/cover.png" | relative_url }})
