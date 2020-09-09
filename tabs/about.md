@@ -114,7 +114,7 @@ You can also search articles from top right corner's search box. At the bottom o
 The whole purpose of this blog is to share the knowledge, learn from the community and showcasing my capabilities and point of view in different aspects of professional, personal and social life.
 
 Keep on coming to this place for more interesting stuff.<br/>
-Please bookmark this blog if you are interested in the content I described earlier, so you can never miss any update.<br/>
+Consider bookmarking this blog if you are interested in the content I described earlier.<br/>
 Thanks for visiting my blog.
 <hr>
 
