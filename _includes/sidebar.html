@@ -49,26 +49,26 @@
 
 <div class="sidebar-bottom d-flex flex-wrap justify-content-around mt-4">  
   {% if site.theme_mode == "dual" %}
-  <span id="mode-toggle-wrapper">
+  <span id="mode-toggle-wrapper" data-toggle="tooltip" data-placement="top" title="Change Theme">
     {% include mode-toggle.html %}
   </span>
   <span class="icon-border"></span>
   {% endif %}
 
-  <a href="https://github.com/{{ site.github.username }}" target="_blank" style="color:gainsboro;">
+  <a href="https://github.com/{{ site.github.username }}" target="_blank" style="color:gainsboro;"  data-toggle="tooltip" data-placement="top" title="Github Profile">
     <i class="fab fa-github"></i>
   </a>
-<a href="https://www.linkedin.com/in/{{ site.linkedin.username }}" target="_blank" style="color: #0695DD;">
+<a href="https://www.linkedin.com/in/{{ site.linkedin.username }}" target="_blank" style="color: #0695DD;"  data-toggle="tooltip" data-placement="top" title="Linkedin Profile">
     <i class="fab fa-linkedin"></i>
   </a>
-<a href="https://www.hackerrank.com/{{ site.hackerrank.username }}" target="_blank"  style="color:darkgoldenrod;">
+<a href="https://www.hackerrank.com/{{ site.hackerrank.username }}" target="_blank"  style="color:darkgoldenrod;"  data-toggle="tooltip" data-placement="top" title="HackerRank Profile">
   <i class="fab fa-hackerrank"></i>
 </a>
   {% assign email = site.social.email | split: '@' %}
-  <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"  style="color: #7A65FF;">
+  <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"  style="color: #7A65FF;"  data-toggle="tooltip" data-placement="top" title="Send Me An Email">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="{{ site.baseurl }}/feed.xml" target="_blank"  style="color: #f26522;">
+  <a href="{{ site.baseurl }}/feed.xml" target="_blank"  style="color: #f26522;"  data-toggle="tooltip" data-placement="top" title="RSS Feed">
     <i class="fas fa-rss-square"></i>
   </a>
 </div>
