@@ -17,15 +17,15 @@ layout: default
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
+        <div>
         <span>• Reading time:&nbsp;</span>
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
         Less than 1 min
         {% else %}
         {{ words | divided_by:180 }} mins
-        {% endif %}&nbsp;
-        <div>
-          Published
+        {% endif %}&nbsp;        
+          • Published
           {% include timeago.html date=page.date tooltip=true %}
           by <a href="https://linkedin.com/in/arjun-mota" alt="https://linkedin.com/in/arjun-mota">
           <span class="author">            
