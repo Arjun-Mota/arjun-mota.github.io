@@ -17,7 +17,7 @@ layout: default
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
-        <span>Reading time:&nbsp;</span>
+        <span>• Reading time:&nbsp;</span>
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
         Less than 1 min
@@ -35,8 +35,7 @@ layout: default
             {{ site.author }}
             {% endif %}            
           </span></a>
-        </div>
-
+        
         <!-- lastmod -->
         {%- capture filename -%}
         {{ page.url | split: "/" | last }}
@@ -50,12 +49,11 @@ layout: default
         {% endif %}
         {% endfor %}
 
-        {% if lastmod %}
-        <div>
-          Updated
-          {% include timeago.html date=lastmod class="lastmod" tooltip=true %}
-        </div>
+        {% if lastmod %}        
+          • Updated
+          {% include timeago.html date=lastmod class="lastmod" tooltip=true %}        
         {% endif %}
+        </div>
 
         <!-- page views -->
         {% if site.google_analytics.pv.enabled %}
