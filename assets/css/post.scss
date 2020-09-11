@@ -35,7 +35,7 @@ align-self: center;
 }
 
 .inline_equation{
-  font-size: 1.6rem;
+  font-size: calc(1rem + ((1vw - 0.48rem) * 1.3889));;
 }
 
 .equation_variables{
