@@ -39,7 +39,7 @@ My name is Arjun Mota.  I am a Software Engineer live in Mumbai, Maharashtra - I
   
 ## Aspiration
 
-Following my aspiration of becoming a Data scientist, I am utilizing my skill-set in various real life data-driven problem solving, participating in hackathons, following various blogs and researches, enrolling in MOOCs and webinars.
+Following my aspiration of becoming a Data scientist, I am utilizing my skill-set in various real life data-driven problem solving, participating in hackathons, following various blogs and researches, reading books, enrolling in MOOCs and attending webinars.
 
 ### Skills
 
