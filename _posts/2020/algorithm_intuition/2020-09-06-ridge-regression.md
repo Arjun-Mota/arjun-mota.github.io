@@ -84,7 +84,7 @@ Where x is our input variables matrix as mentioned below and <span class="equati
 
 x has 1's in the first column that will be scores of each record of our dataset, and the rest are all the records. We have n records and k features/variables in this matrix.
 
-This is the only difference in ridge regression compare to linear regression. By adding a l2 penalty to cost function with alpha give us better coefficients that result in a regression line better than linear regression without regularization.<br/>
+This is the only difference in a ridge regression compare to linear regression. By adding a l2 penalty to cost function with alpha give us better coefficients that result in a regression line better than linear regression without regularization.<br/>
 
 ## Conclusion
 
