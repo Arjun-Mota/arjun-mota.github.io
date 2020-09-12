@@ -70,7 +70,7 @@ y = x * \widehat{\boldsymbol{\theta}}
 \$\$
 </span>
 
-Where x is our input variables matrix as mentioned below and <span class="equation_variables">\\( \widehat{\boldsymbol{\theta}} \\)</span> (theta hat) is the ridge regression coefficients and bias matrix calculated earlier.<br/>
+Where x is our input variables matrix as mentioned below and <span class="equation_variables">\\( \widehat{\boldsymbol{\theta}} \\)</span> (theta hat) is the ridge regression coefficients calculated earlier and a bias matrix <span class="equation_variables">\\( \boldsymbol{\theta_{0}} \\)</span>.<br/>
 
 <span class="centered_equation">
 \$\$ x = \\pmatrix{
