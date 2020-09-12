@@ -4,7 +4,7 @@ author: Arjun Mota
 date: 2020-09-03 18:20:00 +0530
 image: /assets/img/sample/polynomial_regression_cover.png
 social_card: /assets/img/social_card/polynomial_regression.png
-summary: Polynomial regression algorithm explanation, usecases, diagrams and formulas used in a development.
+summary: Polynomial regression algorithm explanation, usecases, diagrams and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
 tags: [regression, machine learning]
 math: true

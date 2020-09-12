@@ -4,7 +4,7 @@ author: Arjun Mota
 date: 2020-08-16 12:00:00 +0530
 image: /assets/img/sample/linear_regression_cover.png
 social_card: /assets/img/social_card/linear_regression.png
-summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in a development.
+summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
 tags: [regression, machine learning]
 math: true

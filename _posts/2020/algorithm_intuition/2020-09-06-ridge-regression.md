@@ -4,7 +4,7 @@ author: Arjun Mota
 date: 2020-09-06 17:40:00 +0530
 image: /assets/img/sample/ridge_regression_cover.png
 social_card: /assets/img/social_card/ridge_regression.png
-summary: Ridge regression algorithm explanation and formulas used in a development.
+summary: Ridge regression algorithm explanation and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
 tags: [regression, machine learning]
 math: true
@@ -70,7 +70,7 @@ y = x * \widehat{\boldsymbol{\theta}}
 \$\$
 </span>
 
-Where x is our input variables matrix as mentioned below and <span class="equation_variables">\\( \widehat{\boldsymbol{\theta}} \\)</span> (theta hat) is the ridge regression coefficients calculated earlier and a bias matrix <span class="equation_variables">\\( \boldsymbol{\theta_{0}} \\)</span>.<br/>
+Where x is our input variables matrix as mentioned below and <span class="equation_variables">\\( \widehat{\boldsymbol{\theta}} \\)</span> (theta hat) is the ridge regression coefficients calculated earlier with a bias matrix <span class="equation_variables">\\( \boldsymbol{\theta_{0}} \\)</span>.<br/>
 
 <span class="centered_equation">
 \$\$ x = \\pmatrix{
@@ -82,7 +82,7 @@ Where x is our input variables matrix as mentioned below and <span class="equati
 } \$\$
 </span>
 
-x has 1's in the first column that will be scores of each record of our dataset, and the rest are all the records. We have n records and k features/variables in this matrix.
+All the input records are present from second column onward in x as 1's in the first column are kept for taking a bias value from <span class="equation_variables">\\( \boldsymbol{\theta_{0}} \\)</span> because bias values will be multiplied with the first column. We have n records and k features/variables in this matrix.
 
 This is the only difference in a ridge regression compare to linear regression. By adding a l2 penalty to cost function with alpha give us better coefficients that result in a regression line better than linear regression without regularization.<br/>
 
