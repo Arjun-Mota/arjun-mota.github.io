@@ -5,13 +5,15 @@ summary: All the tags related to different topics available on this blog.
 ---
 
 <div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+
 {% capture site_tags %}
-{% for tag in site.tags %}
-{{ tag[1].size }}#{{ tag | first | downcase }}#{{ tag | first }}{% unless forloop.last %},{% endunless %}
-{% endfor %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus:10000 }}#{{ tag | first | downcase }}#{{ tag | first }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
 {% endcapture %}
 
-{% assign tag_hashes = site_tags | split:',' | sort | reverse %}
+{% assign tag_hashes = site_tags | split:',' | sort | reverse %} 
+
 <div>
 {% for hash in tag_hashes %}
   {% assign keyValue = hash | split: '#' %}

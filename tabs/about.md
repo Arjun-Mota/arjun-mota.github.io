@@ -107,7 +107,7 @@ Menu on the left side contains some links, a brief explanation of them are as un
 ### Bottom Links and Panels
 
 If you are viewing this website on a desktop, I would also suggest you to explore all tags by clicking on Tags in left menu or see all tags link on the top right  trending tags panel.<br/>
-You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my github, linkedin, hackerrank profiles, email id and rss link. In a desktop mode, on almost every page you will see arrow in a circle pointing upward at bottom right place, that is for going to top of the page.
+You can also search articles from top right corner's search box. At the bottom of left menu are theme toggle for dark/light theme of the website and rest are my Github, Linkedin, Hackerrank and, Tableau profiles, send me an Email and RSS link. In a desktop mode, on almost every page you will see arrow in a circle pointing upward at bottom right place, that is for going to top of the page.
 
 ### Purpose
 
