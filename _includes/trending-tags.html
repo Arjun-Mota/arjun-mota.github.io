@@ -17,6 +17,7 @@
 {% assign tag_hashes = site_tags | split:',' | sort | reverse %}
 
 {% assign trending_tags = "" | split: "$" %}
+{% assign count = 0 %}
 
 {% for hash in tag_hashes %}
 
@@ -25,7 +26,7 @@
 {% capture tag_word %}{{ keyValue[2] | strip_newlines }}{% endcapture %}
 
 {% assign trending_tags = trending_tags | push: tag_word %}
-
+{% assign count = count | plus: 1 %}
 {% if count >= MAX %}
     {% break %}
   {% endif %}
