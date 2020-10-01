@@ -124,7 +124,7 @@ Keep this in mind that when we transform input features into polynomials, they w
 
 It is useful in high dimensional data as it deals with feature selection and correlation of them.<br/>
 
-Though, there is another good regression algorithm Elastic Net Regression, which is a combination of both ridge and lasso regression.<br/>
+Though, there is another good regression algorithm <a href="/posts/elastic-net-regression/">Elastic Net Regression</a>, which is a combination of both ridge and lasso regression.<br/>
 
 If you want to know more about a batch gradient descent then check: <a href="/posts/batch-gradient-descent/">Batch Gradient Descent</a> <br/>
 For a ridge regression check this: <a href="/posts/ridge-regression/">Ridge Regression (L2 Regularization)</a><br/><br/>

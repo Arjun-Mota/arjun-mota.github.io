@@ -94,7 +94,7 @@ Just to make it clear evaluation metrics are the same as linear regression. You 
 
 Check out evaluation metrics here: <a href="/categories/evaluation-metrics/">Evaluation Metrics</a><br/>
 
-As mentioned earlier, it moves coefficients towards 0 but does not make them 0. Because of that irrelevant features will hurt the model and this is a limitation that is prevented by fellow regularized algorithm Lasso regression.<br/><br/>
+As mentioned earlier, it moves coefficients towards 0 but does not make them 0. Because of that irrelevant features will hurt the model and this is a limitation that is prevented by fellow regularized algorithm <a href="/posts/lasso-regression/">Lasso regression.</a><br/><br/>
 
 ## End Quote
 
