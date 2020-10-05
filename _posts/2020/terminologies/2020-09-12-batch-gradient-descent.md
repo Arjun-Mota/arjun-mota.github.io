@@ -52,10 +52,10 @@ Just keep this pseudocode in mind for further explanation.<br/>
 
 ```terminal
 Steps:
-    1. Initialize random feature weights and calculate an error.
+    1. Initialize random feature weights.
     2. Calculate the gradient for all records.
     3. Adjust feature weights by calculating new weights.
-    4. Use new weights for prediction and calculate an error again.
+    4. Use new weights for prediction and calculate an error.
     5. Repeat steps 2, 3, and 4 for adjusting feature weights and
        do it until an error no longer reduces or reached some iterations limit.
 ```
