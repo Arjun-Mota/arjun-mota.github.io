@@ -11,5 +11,14 @@
   filename: 'lasso-regression'
   lastmod: '2020-10-01 14:29:06 +0530'
 -
+  filename: 'mean'
+  lastmod: '2020-10-05 15:46:28 +0530'
+-
+  filename: 'median'
+  lastmod: '2020-10-05 15:46:28 +0530'
+-
+  filename: 'mode'
+  lastmod: '2020-10-05 15:46:28 +0530'
+-
   filename: 'batch-gradient-descent'
-  lastmod: '2020-09-27 20:28:53 +0530'
+  lastmod: '2020-10-05 15:46:28 +0530'
