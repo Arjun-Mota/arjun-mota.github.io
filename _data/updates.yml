@@ -1,15 +1,18 @@
 -
   filename: 'linear-regression'
-  lastmod: '2020-09-13 03:14:46 +0530'
+  lastmod: '2020-10-09 17:52:39 +0530'
 -
   filename: 'polynomial-regression'
-  lastmod: '2020-09-13 03:14:46 +0530'
+  lastmod: '2020-10-09 17:52:39 +0530'
 -
   filename: 'ridge-regression'
-  lastmod: '2020-10-01 14:29:06 +0530'
+  lastmod: '2020-10-09 17:52:39 +0530'
 -
   filename: 'lasso-regression'
-  lastmod: '2020-10-01 14:29:06 +0530'
+  lastmod: '2020-10-09 17:52:39 +0530'
+-
+  filename: 'elastic-net-regression'
+  lastmod: '2020-10-09 17:52:39 +0530'
 -
   filename: 'mean'
   lastmod: '2020-10-05 15:46:28 +0530'
@@ -22,3 +25,6 @@
 -
   filename: 'batch-gradient-descent'
   lastmod: '2020-10-05 15:46:28 +0530'
+-
+  filename: 'stochastic-gradient-descent'
+  lastmod: '2020-10-09 17:52:39 +0530'
