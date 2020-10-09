@@ -6,7 +6,7 @@ image: /assets/img/sample/ridge_regression_cover.png
 social_card: /assets/img/social_card/ridge_regression.png
 summary: Ridge regression algorithm explanation and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
-tags: [regression, machine learning]
+tags: [regression, machine learning, supervised machine learning]
 math: true
 toc: true
 ---

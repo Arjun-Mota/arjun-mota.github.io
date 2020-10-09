@@ -6,7 +6,7 @@ image: /assets/img/sample/linear_regression_cover.png
 social_card: /assets/img/social_card/linear_regression.png
 summary: Linear regression algorithm explanation, usecases, diagrams and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
-tags: [regression, machine learning]
+tags: [regression, machine learning, supervised machine learning]
 math: true
 toc: true
 ---

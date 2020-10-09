@@ -97,7 +97,7 @@ I am keeping this diagram from the batch gradient descent for the understanding 
 ## Conclusion
 
 •   Stochastic gradient descent is a better option than batch gradient descent in terms of memory and performance.<br/>
-•   Though, random samples used in SGD still not able to utilize hardware properly that is the reason Mini-batch Gradient Descent exists.<br/><br/>
+•   Though, random samples used in SGD still not able to utilize hardware properly that is the reason <a href="/posts/mini-batch-gradient-descent/">Mini-batch Gradient Descent</a> exists.<br/><br/>
 
 ## End Quote
 

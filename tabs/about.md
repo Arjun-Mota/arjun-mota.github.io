@@ -7,7 +7,6 @@ summary: About Arjun Mota and this blog's tour and it's purpose.
 toc: true
 math: true
 ---
-<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
 ## Introduction
 Greetings!<br/>
@@ -43,21 +42,19 @@ Following my aspiration of becoming a Data scientist, I am utilizing my skill-se
 
 ### Skills
 
-|<span class="iconify" data-icon="logos:python" data-inline="false" data-height="30"></span>|Python|
-|<span class="iconify" data-icon="carbon:machine-learning" data-inline="false" data-height="30" style="color:violet;"></span>|Machine Learning|
-|<span class="iconify" data-icon="carbon:model-builder" data-inline="false" data-height="30"></span>|Deep Neural Networks|
-|<span class="iconify" data-icon="wpf:statistics" data-inline="false" data-height="30" style="color:lime;"></span>|Statistical Data Analysis|
-|<span class="iconify" data-icon="logos:java" data-inline="false" data-height="30"></span>|Java|
-|<span class="iconify" data-icon="logos:mysql" data-inline="false" data-width="40" data-height="30" style="color:violet;"></span>|SQL|
-|<span class="iconify" data-icon="cib:mongodb" data-inline="false" data-width="30" data-height="30" style="color:green;"></span>|NoSQL|
-|<span class="iconify" data-icon="simple-icons:powerbi" data-inline="false" data-height="30" style="color:lime;"></span>|Power Bi|
-|<span class="iconify" data-icon="cib:tableau" data-inline="false" data-height="30" style="color:darkaqua;"></span>|Tableau|
-|<span class="iconify" data-icon="cib:apache-spark" data-inline="false" data-height="30" style="color:green;"></span>|Spark|
+|<img src="/assets/img/icons/python.png" alt="python">|**Python**|<img src="/assets/img/icons/machine_learning.png" alt="machine learning">|**Machine Learning**|
+|<img src="/assets/img/icons/deep_learning.png" alt="deep learning">|**Deep Learning**|<img src="/assets/img/icons/nlp.png" alt="NLP">|**Natural Language Processing (NLP)**|
+|<img src="/assets/img/icons/statistical_analysis.png" alt="statistical data analysis">|**Statistical Data Analysis**|<img src="/assets/img/icons/java.png" alt="java">|**Java**|
+|<img src="/assets/img/icons/sql.png" alt="sql">|**SQL**|<img src="/assets/img/icons/nosql.png" alt="nosql">|**NoSQL**|
+|<img src="/assets/img/icons/powerbi.png" alt="powerbi">|**Power Bi**|<img src="/assets/img/icons/tableau_icon.png" alt="tableau">|**Tableau**|
+|<img src="/assets/img/icons/spark.png" alt="spark">|**Spark**|
+
 
 ### Expertise  
 
 Software Engineering ✔  
 Machine Learning & Deep Learning ✔  
+Natural Language Processing (NLP) ✔  
 Statistical Data Analysis ✔  
 Data Visualization ✔  
 Business Development ✔  
@@ -124,7 +121,7 @@ Thanks for visiting my blog.
 ### Contact
 <hr>
 In case of any query, suggestion, request or discussion,
-<br/>Contact me at: {% assign email = site.social.email | split: '@' %} <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"  style="color: #3b5998; brightness(30%);">
+<br/>Contact me at: {% assign email = site.social.email | split: '@' %} <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))"  style="color: 007bb6; brightness(30%);">
     <i class="fas fa-envelope"></i> arjunmota@hotmail.com
   </a>
   <br/>
