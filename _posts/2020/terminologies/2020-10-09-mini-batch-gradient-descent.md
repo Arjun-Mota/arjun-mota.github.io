@@ -6,7 +6,7 @@ image: /assets/img/sample/mini_batch_gradient_descent_cover.png
 social_card: /assets/img/social_card/mini_batch_gradient_descent.png
 summary: Mini-batch gradient descent is an optimization algorithm that is used to reduce an error in a model through the identification of proper weights. This article contains the definition of mini-batch gradient descent and a detailed explanation with pseudocode.
 categories: [Artificial Intelligence, Terminologies]
-tags: [mini batch gradient descent, gradient descent types, machine learning glossary, machine learning]
+tags: [mini-batch-gradient-descent, gradient-descent-types, machine-learning-glossary, machine-learning]
 toc: true
 ---
 

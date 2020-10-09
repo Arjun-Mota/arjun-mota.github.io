@@ -6,7 +6,7 @@ image: /assets/img/sample/batch_gradient_descent_cover.png
 social_card: /assets/img/social_card/batch_gradient_descent.png
 summary: Batch Gradient descent is an algorithm for the optimization of a model to reduce a prediction error. This article contains the definition of a batch gradient descent and detailed explanation with pseudocode, formulas and diagrams.
 categories: [Artificial Intelligence, Terminologies]
-tags: [batch gradient descent, gradient descent types, machine learning glossary, machine learning]
+tags: [batch-gradient-descent, gradient-descent-types, machine-learning-glossary, machine-learning]
 math: true
 toc: true
 ---

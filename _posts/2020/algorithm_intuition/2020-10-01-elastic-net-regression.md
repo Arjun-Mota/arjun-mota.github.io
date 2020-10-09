@@ -6,7 +6,7 @@ image: /assets/img/sample/elastic_net_regression_cover.png
 social_card: /assets/img/social_card/elastic_net_regression.png
 summary: Elastic net regression algorithm explanation and formulas used in development.
 categories: [Artificial Intelligence, Algorithm Intuition]
-tags: [regression, machine learning, supervised machine learning]
+tags: [regression, machine-learning, supervised-machine-learning]
 math: true
 toc: true
 ---
