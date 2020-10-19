@@ -17,7 +17,7 @@ summary: All the tags related to different topics available on this blog.
 <div>
 {% for hash in tag_hashes %}
   {% assign keyValue = hash | split: '#' %}
-  {% capture tag_word %}{{ keyValue[2] | strip_newlines }}{% endcapture %}
+  {% capture tag_word %}{{ keyValue[2] | strip_newlines | strip}}{% endcapture %}
     <a class="tag" href="{{ site.baseurl }}/tags/{{ tag_word | replace: ' ', '-' | downcase | url_encode }}/">{{ tag_word }}<span class="text-muted">{{ site.tags[tag_word].size }}</span></a>
 {% endfor %}
 </div>
