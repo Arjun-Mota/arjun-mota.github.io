@@ -85,7 +85,7 @@ main() {
   done
 
   if [[ $_count > 0 ]]; then
-    echo "[INFO] Success to update lastmod for $_count post(s)."
+    echo "[INFO] Successfully updated last modified date time for $_count post(s)."
   fi
 }
 

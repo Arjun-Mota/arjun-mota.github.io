@@ -65,7 +65,7 @@ commit() {
 
   if [[ $CATEGORIES = true || $TAGS = true || $LASTMOD = true ]]; then
     msg+=" for post(s)."
-    git commit -m "[Automation] $msg" -q
+    git commit -m "[Publishing Automation] $msg" -q
   else
     msg="Nothing changed."
   fi

@@ -34,6 +34,13 @@ align-content: center;
 align-self: center;
 }
 
+.text_equation {
+font-size: calc(1.3rem + ((1vw - 1.6rem) * 0.5));
+text-align: center;
+align-content: center;
+align-self: center;
+}
+
 .inline_equation{
   font-size: calc(1.3rem + ((1vw - 0.48rem) * 1.3889));;
 }

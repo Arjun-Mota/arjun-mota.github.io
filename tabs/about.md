@@ -78,6 +78,9 @@ Curiosity about Leveraging Big Data ✔
 ```
 Note: Most of them are available on my Github account with detailed explanation.
 ```
+
+Check project details here: <a href="https://github.com/Arjun-Mota"><i class="fab fa-github"></i> Arjun-Mota [Github Profile]</a>
+
 ## Personal Life
 
 In personal life I like to travel to new places, reading books, go for trekking, listen to music, talk to new people and join them for social work and saving the environment. 

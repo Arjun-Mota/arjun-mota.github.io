@@ -6,7 +6,7 @@ image: /assets/img/sample/root_mean_squared_error.png
 social_card: /assets/img/social_card/root_mean_squared_error.png
 summary: Machine learning model evaluation metric RMSE (root mean squared error) explanation, formula and usecases of it.
 categories: [Artificial Intelligence, Evaluation Metrics]
-tags: [machine-learning, evaluation-metrics, root-mean-squared-error, machine-learning-glossary]
+tags: [machine-learning, evaluation-metrics, root-mean-squared-error, machine-learning-glossary, regression-evaluation-metrics]
 math: true
 toc: true
 ---

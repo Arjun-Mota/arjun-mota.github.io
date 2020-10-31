@@ -41,24 +41,6 @@ read_tags() {
   echo "$_yaml" | grep "^tags:" | sed "s/tags: *//;s/\[//;s/\].*//;s/, */,/g;s/\"//g;s/'//g"
 }
 
-
-init() {
-  if [[ -d categories ]]; then
-    rm -rf categories
-  fi
-
-  if [[ -d tags ]]; then
-    rm -rf tags
-  fi
-
-  if [[ ! -d _posts ]]; then
-    exit 0
-  fi
-
-  mkdir categories tags
-}
-
-
 create_category() {
   if [[ ! -z $1 ]]; then
     local _name=$1
@@ -135,8 +117,6 @@ create_pages() {
 
 
 main() {
-
-  init
 
   for _file in $(find "_posts" -type f \( -iname \*.md -o -iname \*.markdown \))
   do

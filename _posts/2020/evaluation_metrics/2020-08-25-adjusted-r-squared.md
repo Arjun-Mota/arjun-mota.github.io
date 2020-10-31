@@ -6,7 +6,7 @@ image: /assets/img/sample/adjusted_r_squared.png
 social_card: /assets/img/social_card/adjusted_r_squared.png
 summary: Machine learning model evaluation metric Adjusted R<sup>2</sup> (adjusted r-squared) explanation, formula and usecases of it.
 categories: [Artificial Intelligence, Evaluation Metrics]
-tags: [machine-learning, evaluation-metrics, adjusted-r-squared, machine-learning-glossary]
+tags: [machine-learning, evaluation-metrics, adjusted-r-squared, machine-learning-glossary, regression-evaluation-metrics]
 math: true
 toc: true
 ---
