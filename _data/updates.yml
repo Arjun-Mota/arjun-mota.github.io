@@ -1,0 +1,48 @@
+-
+  filename: 'linear-regression'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'polynomial-regression'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'ridge-regression'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'lasso-regression'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'elastic-net-regression'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'mean-absolute-error'
+  lastmod: '2020-11-01 01:29:03 +0530'
+-
+  filename: 'mean-squared-error'
+  lastmod: '2020-11-01 01:29:03 +0530'
+-
+  filename: 'root-mean-squared-error'
+  lastmod: '2020-11-01 01:29:03 +0530'
+-
+  filename: 'adjusted-r-squared'
+  lastmod: '2020-11-01 01:29:03 +0530'
+-
+  filename: 'r-squared'
+  lastmod: '2020-11-01 01:29:03 +0530'
+-
+  filename: 'mean'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'median'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'mode'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'batch-gradient-descent'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'stochastic-gradient-descent'
+  lastmod: '2020-10-09 18:04:58 +0530'
+-
+  filename: 'mini-batch-gradient-descent'
+  lastmod: '2020-10-09 18:04:58 +0530'

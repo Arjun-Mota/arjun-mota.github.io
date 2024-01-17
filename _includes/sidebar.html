@@ -1,0 +1,73 @@
+<div id="nav-wrapper">
+  <div id="profile-wrapper" class="d-flex flex-column">
+    <div id="avatar" class="d-flex justify-content-center">
+      <a href="{{ site.baseurl }}/" alt="avatar">
+        {% assign avatar_url = site.avatar %}
+        {% capture start %}{{ site.avatar | slice: 0 }}{% endcapture %}
+        {% if start == '/' %}
+          {% assign avatar_url = avatar_url | prepend: site.baseurl %}
+        {% endif %}
+        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
+      </a>
+    </div>
+
+    <div class="profile-text mt-3">
+      <div class="site-title">
+        <a href="{{ '/' | relative_url }}">{{- site.title -}}</a>
+      </div>
+      <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
+    </div>
+  </div>
+
+  <ul class="nav flex-column">
+  {% assign page_urls = page.url | split: "/" %}
+
+  {% for item in site.data.tabs %}
+    {% assign ref = site.baseurl | append: "/" %}
+
+    {% if item.path %}
+      {% assign ref = ref | append: item.path | append: "/" %}
+      {% if item.url %}
+        {% assign ref = ref | append: item.url | append: "/" %}
+      {% endif %}
+    {% endif %}
+
+    <li class="nav-item d-flex justify-content-center
+      {% if item.url == page_urls.last
+        or item.name == page.tab_active
+        or item.name == "Home" and page.layout == "home" %}active{% endif %}">
+      <a href="{{ ref }}" class="nav-link d-flex justify-content-center align-items-center w-100">
+        <i class="fa-fw {{ item.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
+        <span>{{ item.name | upcase }}</span>
+      </a>
+    </li> <!-- .nav-item -->
+  {% endfor %}
+
+  </ul> <!-- ul.nav.flex-column -->
+
+</div><!-- #nav-wrapper -->
+
+<div class="sidebar-bottom d-flex flex-wrap justify-content-around mt-4">  
+  {% if site.theme_mode == "dual" %}
+  <span id="mode-toggle-wrapper" data-toggle="tooltip" data-placement="top" title="Change Theme">
+    {% include mode-toggle.html %}
+  </span>
+  <span class="icon-border"></span>
+  {% endif %}
+
+  <a href="https://github.com/{{ site.github.username }}" target="_blank" style="color:gainsboro;"  data-toggle="tooltip" data-placement="top" title="Github Profile">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/{{ site.linkedin.username }}" target="_blank" style="color: #0695DD;"  data-toggle="tooltip" data-placement="top" title="Linkedin Profile">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  <a href="https://www.hackerrank.com/{{ site.hackerrank.username }}" target="_blank"  style="color:darkgoldenrod;"  data-toggle="tooltip" data-placement="top" title="HackerRank Profile">
+    <i class="fab fa-hackerrank"></i>
+  </a>
+  <a href="https://public.tableau.com/profile/arjunmota#!/" target="_blank" data-toggle="tooltip" data-placement="top" title="Tableau Profile">
+    <img src="/assets/img/icons/tableau.png"  style="margin-bottom: 5px;"></img>
+  </a>
+  <a href="{{ site.baseurl }}/feed.xml" target="_blank"  style="color: #f26522;"  data-toggle="tooltip" data-placement="top" title="RSS Feed">
+    <i class="fas fa-rss-square"></i>
+  </a>
+</div>

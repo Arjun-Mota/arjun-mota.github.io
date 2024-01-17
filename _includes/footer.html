@@ -1,0 +1,21 @@
+<footer class="d-flex w-100 justify-content-center">
+  <div class="d-flex justify-content-between align-items-center">
+    <div class="footer-left">
+      <p class="mb-0">
+        © {{ 'now' | date: "%Y" }}  <a href='https://arjun-mota.github.io' alt='https://arjun-mota.github.io'>arjun-mota.github.io</a> by 
+        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+        {% if site.data.rights.brief %}
+        <span data-toggle="tooltip" data-placement="top"
+          title="{{ site.data.rights.verbose }}">{{ site.data.rights.brief }}</span>
+        {% endif %}
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <p class="mb-0">
+        Made with &#10084; in India.<br/>Powered by <a href="https://www.ruby-lang.org/en/" alt='https://www.ruby-lang.org/en/'>Ruby</a> with <a href="https://github.com/cotes2020/jekyll-theme-chirpy"  alt='https://github.com/cotes2020/jekyll-theme-chirpy'>Jekyll Chirpy Theme</a>
+      </p>
+    </div>
+
+  </div> <!-- div.d-flex -->
+</footer>
