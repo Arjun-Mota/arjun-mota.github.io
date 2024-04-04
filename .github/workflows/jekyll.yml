@@ -9,10 +9,14 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          # Repository name with owner. For example, actions/checkout
+          # Default: ${{ github.repository }}
+          repository: arjun-mota/arjun-mota.github.io
 
       # Use GitHub Actions' cache to cache dependencies on servers
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: |
             .asdf/**
@@ -22,7 +26,6 @@ jobs:
             ${{ runner.os }}-cache-
 
       # Use GitHub Deploy Action to build and deploy to Github
-      # For latest version: `jeffreytse/jekyll-deploy-action@main`
       - uses: arjun-mota/arjun-mota.github.io@main
         with:
           provider: 'github'         # Default is github
