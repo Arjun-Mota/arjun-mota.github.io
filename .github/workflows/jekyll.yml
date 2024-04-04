@@ -23,7 +23,7 @@ jobs:
 
       # Use GitHub Deploy Action to build and deploy to Github
       # For latest version: `jeffreytse/jekyll-deploy-action@main`
-      - uses: arjun-mota/jekyll-deploy-action@main
+      - uses: arjun-mota/arjun-mota.github.io@main
         with:
           provider: 'github'         # Default is github
           token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
